@@ -1,0 +1,7 @@
+<div style="width: 400px; padding: 10px">
+    {{this.data}}
+    </br>
+    {{this.kata}}
+    </br>
+    bbbbbbbbbbbbb
+</div>

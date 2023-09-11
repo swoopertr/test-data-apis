@@ -1,0 +1,29 @@
+{
+  "name": "framer",
+  "version": "1.1.0",
+  "description": "simpliest and no deps web framework ever.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swoopertr/framer-web-framework.git"
+  },
+  "keywords": [
+    "simple",
+    "no",
+    "deps"
+  ],
+  "author": "tunc kiral",
+  "license": "ISC",
+  "dependencies": {
+    "@medley/router": "^0.2.1",
+    "formidable": "^2.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/swoopertr/framer-web-framework/issues"
+  },
+  "homepage": "https://github.com/swoopertr/framer-web-framework#readme"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "path": "/home",
+    "method": "get",
+    "controller": "home",
+    "function": "main",
+    "isCached": false
+  },
+  {
+    "path":"/RickAndMorty/list",
+    "method":"get",
+    "controller":"home",
+    "function":"RickAndMortyPage",
+    "isCached":false
+  },
+  {
+    "path" : "/gouth",
+    "method" : "get",
+    "controller" : "home",
+    "function" : "google_auth_login",
+    "isCached" : false
+  },
+  {
+    "path" : "/auth/redirect/google",
+    "method" : "get",
+    "controller" : "home",
+    "function" : "google_auth_redirect",
+    "isCached" : false
+  },
+  {
+    "path": "/list",
+    "method": "get",
+    "controller": "assign",
+    "function": "getlist",
+    "isCached": false
+  },
+  {
+    "path": "/get",
+    "method": "get",
+    "controller": "assign",
+    "function": "getInfo",
+    "isCached": false
+  },
+  {
+    "path": "/gitclone",
+    "method": "get",
+    "controller": "assign",
+    "function": "gitClone",
+    "isCached": false
+  },
+  {
+    "path": "/makezip",
+    "method": "get",
+    "controller": "assign",
+    "function": "makeZip",
+    "isCached": false
+  }
+]
