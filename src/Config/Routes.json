@@ -14,45 +14,17 @@
     "isCached":false
   },
   {
-    "path" : "/gouth",
-    "method" : "get",
-    "controller" : "home",
-    "function" : "google_auth_login",
-    "isCached" : false
+    "path":"/test/movie",
+    "method":"OPTIONS",
+    "controller":"test",
+    "function":"movie_options",
+    "isCached":false
   },
   {
-    "path" : "/auth/redirect/google",
-    "method" : "get",
-    "controller" : "home",
-    "function" : "google_auth_redirect",
-    "isCached" : false
-  },
-  {
-    "path": "/list",
-    "method": "get",
-    "controller": "assign",
-    "function": "getlist",
-    "isCached": false
-  },
-  {
-    "path": "/get",
-    "method": "get",
-    "controller": "assign",
-    "function": "getInfo",
-    "isCached": false
-  },
-  {
-    "path": "/gitclone",
-    "method": "get",
-    "controller": "assign",
-    "function": "gitClone",
-    "isCached": false
-  },
-  {
-    "path": "/makezip",
-    "method": "get",
-    "controller": "assign",
-    "function": "makeZip",
-    "isCached": false
+    "path":"/test/movie",
+    "method":"get",
+    "controller":"test",
+    "function":"movie",
+    "isCached":false
   }
 ]
