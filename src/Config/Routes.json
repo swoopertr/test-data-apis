@@ -15,16 +15,16 @@
   },
   {
     "path":"/test/movie",
-    "method":"OPTIONS",
+    "method":"get",
     "controller":"test",
-    "function":"movie_options",
+    "function":"movie",
     "isCached":false
   },
   {
     "path":"/test/movie",
-    "method":"get",
+    "method":"OPTIONS",
     "controller":"test",
-    "function":"movie",
+    "function":"movie_options",
     "isCached":false
   }
 ]

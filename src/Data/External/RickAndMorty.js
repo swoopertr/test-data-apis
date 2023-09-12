@@ -21,7 +21,6 @@ var ramApi = {
             cb && cb(result);
         });
 
-
     }
 
 }

@@ -55,7 +55,17 @@ var mimeRequest = {
         } else {
           render.renderFail(res, 429, 'http 429 too many request', '');
         }*/
-        route.routePath(req, res);
+
+        //res.set('Access-Control-Allow-Origin', '*');
+        let cors_header = {
+          key : "Access-Control-Allow-Origin",
+          value: "*"
+        }
+        header.addHeader(res, cors_header ,function (resp) {
+          route.routePath(req, resp);
+        })
+
+        //route.routePath(req, res);
       }
     });
   }

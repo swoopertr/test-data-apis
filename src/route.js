@@ -40,7 +40,7 @@ function routePath(req, res){
         ...req,
         params: handler.params
     };
-    if(!!handler.store[req.method.toLowerCase()] ){
+    if(!handler.store[req.method.toLowerCase()] ){
         render.renderData(res, 'This method is not exist!', 'text');
         return;
     }
